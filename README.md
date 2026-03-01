@@ -17,7 +17,7 @@ Executing ./jgraph 401808271
 will output home.jgr and away.jgr which can be converted into ps and then pdf as detailed in the writeup.
 Here are example pictures I took of pdf output for the above command: The game is Alabama at Tennessee 2/28/26
 
-## Outputs
+## Example Output
 
 Home Team Shot Chart:
 ![Home shot chart](img/home.png)
