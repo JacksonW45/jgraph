@@ -104,7 +104,7 @@ int main(int argc, char** argv)
     }
 
     // Use court.jgr to lay the court down (constant)
-    ifstream courtIn("court.jgr");
+    ifstream courtIn("src/court.jgr");
     if (!courtIn)
     {
         cout << "Could not open court.jgr (must be in the folder)\n";

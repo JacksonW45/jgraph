@@ -6,10 +6,17 @@ This project takes a link to a ESPN NCAA basketball game and ouputs a shotgraph 
 Clone the respository and run:
 make
 
-make on its own will compile with 5 NCAA games, each pdf is converted and put into a pdf folder.
+make on its own will compile with 5 NCAA games, each pdf is converted and put into a pdf folder for easy viewing.
 
-The jgraph.cpp can also be executed as:
+The jgraph.cpp can also be compiled and executed as follows:
+g++ -std=c++17 -Wall src/jgraph.cpp -o jgraph
 ./jgraph "<espn_url>"   or 
 ./jgraph <espn_gameId>
 
-Executing ./jgraph 401808271 will output home.pdf and away.pdf which shows the shotgraph of the recent Alabama Crimson Tide and Tennessee Volunteers basketball game.
+Executing ./jgraph 401808271 
+will output home.jgr and away.jgr which can be converted into ps and then pdf as detailed in the writeup.
+Here are example pictures I took of pdf output for the above command: The game is Alabama at Tennessee 2/28/26
+
+![Home shot chart](img/home.png)
+
+![Away shot chart](img/away.png)
